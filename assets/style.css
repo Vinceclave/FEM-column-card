@@ -6,12 +6,12 @@ body {
 }
 
 .card-con {
-    place-items: center;
     max-width: clamp(5em, calc(100vw - 4em), 60em);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 2em;
-    transition: 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition: 0.2s ease-in-out;
+    border-radius: 0.5em
 }
 @media (max-width:62.45em) {
     .card-con {
